@@ -65,8 +65,8 @@ table {
 }
 /*GLOBAL STYLES/*
 /*Mobile*/
-
-.container body{
-	display: flex;
+body{
 	background-color: var(--Lavender);
+	display:flex;
+	justify-content: center;
 }
