@@ -65,6 +65,8 @@ table {
 }
 /*GLOBAL STYLES/*
 /*Mobile*/
-html{
-	background-color: #6B8FE7;
+
+.container body{
+	display: flex;
+	
 }
