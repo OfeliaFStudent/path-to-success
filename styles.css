@@ -1,6 +1,9 @@
 /*CSS BY Ofelia Ferman*/
 /*IMPORTED FONTS*/
-
+@font-face {
+	font-family: Kavoon;
+	src: url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap);
+}
 /*CSS RESET*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -59,7 +62,9 @@ table {
     --Pink: #D9526F;
     --Dark-Gray: #1E1E1E;
     --White: #ffffff;
-
-    
-
+}
+/*GLOBAL STYLES/*
+/*Mobile*/
+html{
+	background-color: #6B8FE7;
 }
