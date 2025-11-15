@@ -68,5 +68,5 @@ table {
 
 .container body{
 	display: flex;
-	
+	background-color: var(--Lavender);
 }
