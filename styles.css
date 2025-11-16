@@ -69,4 +69,5 @@ table {
 	background-color: var(--Lavender);
 	display:flex;
 	justify-content: center;
+	text-align: center;
 }
