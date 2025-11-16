@@ -81,7 +81,7 @@ header, main, footer{
   text-align:center;
 }
 
-h1{
+header > h1{
   color: var(--White);
   font-size:3em;
 }
