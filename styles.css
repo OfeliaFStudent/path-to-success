@@ -1,9 +1,5 @@
 /*CSS BY Ofelia Ferman*/
 /*IMPORTED FONTS*/
-@font-face {
-	font-family: Kavoon;
-	src: url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap);
-}
 /*CSS RESET*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -62,8 +58,8 @@ table {
     --Pink: #D9526F;
     --Dark-Gray: #1E1E1E;
     --White: #ffffff;
-	--body-fonts: Inter, sans-serif;
-	--title-fonts: Kavoon, Inter, sans-serif
+	--body-fonts: 'Inter', sans-serif;
+	--title-fonts: 'Kavoon', sans-serif;
 
 }
 /*GLOBAL STYLES/*
@@ -74,7 +70,7 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-header, main, footer{
+header, body, footer{
 	background-color: var(--Purple);
 	width:100%;
 	max-width: 450px;
@@ -84,4 +80,5 @@ header, main, footer{
 header > h1{
   color: var(--White);
   font-size:3em;
+  font-family: var(--title-fonts);
 }
