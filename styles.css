@@ -65,9 +65,15 @@ table {
 }
 /*GLOBAL STYLES/*
 /*Mobile*/
-.body{
+body{
 	background-color: var(--Lavender);
 	display:flex;
+	justify-content: center;
+	text-align: center;
+}
+section{
+	background-color: var(--Purple);
+	display: flex;
 	justify-content: center;
 	text-align: center;
 }
