@@ -218,7 +218,7 @@ header, body, footer{
 	background-color: var(--Purple);
 	width:100%;
 	max-width: 450px;
-  text-align:center;
+  	text-align:center;
 }
 
 header > h1{
