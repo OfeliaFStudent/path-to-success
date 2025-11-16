@@ -62,7 +62,8 @@ table {
     --Pink: #D9526F;
     --Dark-Gray: #1E1E1E;
     --White: #ffffff;
-
+	--body-fonts: Inter, sans-serif;
+	--title-fonts: Kavoon, Inter, sans-serif
 
 }
 /*GLOBAL STYLES/*
@@ -73,12 +74,14 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-header, main{
+header, main, footer{
 	background-color: var(--Purple);
 	width:100%;
 	max-width: 450px;
-
+  text-align:center;
 }
-p{
-	font-family: inter, Verdana, sans-serif;	
+
+h1{
+  color: var(--White);
+  font-size:3em;
 }
