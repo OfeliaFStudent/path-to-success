@@ -71,10 +71,15 @@ body{
 	display:flex;
 	justify-content: center;
 	text-align: center;
+	max-width: fit-content;
 }
 section{
 	background-color: var(--Purple);
 	display: flex;
 	justify-content: center;
 	text-align: center;
+	padding:15px ;
+}
+@media (min-width: 450px){
+
 }
