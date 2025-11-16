@@ -69,11 +69,15 @@ table {
 /*Mobile*/
 body{
 	background: var(--Lavender);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 header, main{
 	background-color: var(--Purple);
 	width:100%;
 	max-width: 450px;
+
 }
 p{
 	font-family: inter, Verdana, sans-serif;	
