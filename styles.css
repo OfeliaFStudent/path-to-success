@@ -63,13 +63,18 @@ table {
     --Dark-Gray: #1E1E1E;
     --White: #ffffff;
 
+
 }
 /*GLOBAL STYLES/*
 /*Mobile*/
-body > div{
-	background-color: var(--Lavender);
-	display:flex;
-	justify-content: center;
-	text-align: center;
-	max-width: fit-content;
+body{
+	background: var(--Lavender);
+}
+header, main{
+	background-color: var(--Purple);
+	width:100%;
+	max-width: 450px;
+}
+p{
+	font-family: inter, Verdana, sans-serif;	
 }
