@@ -427,7 +427,7 @@ footer{
   grid-template-columns: 1fr 1fr;
 }
 
-footer > p, a{
+footer > p, footer > a{
   color:var(--White);
   font-family:var(--body-fonts);
   font-size:.6em;
