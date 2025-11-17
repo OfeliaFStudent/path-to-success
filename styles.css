@@ -259,3 +259,59 @@ li > a{
   font-weight:bold;
   font-size:.8em;
 }
+#services > h2{
+  color:var(--White);
+  font-family:var(--title-fonts);
+  padding-top:10px;
+  text-align:left;
+  padding-left:10px;
+  font-size:2em;
+}
+#services > div > h3{
+  color:var(--Yellow);
+  font-family:var(--body-fonts);
+  padding:5px;
+  text-align:left;
+  padding-left:10px;
+  font-weight:bold;
+  font-size:1.5em;
+}
+
+#services > div > div {
+  background-color:var(--White);
+  border-radius:10px;
+  margin:10px;
+  padding:20px;
+  text-align:left;
+}
+
+#services > div > div > img{
+  padding-bottom:10px;
+}
+
+#services > div > div > h4{
+  padding-bottom:5px;
+  font-family:var(--body-fonts);
+  font-size:1.15em;
+  font-weight:bold;
+  color:var(--Purple);
+}
+
+#services > div > div > p{
+  font-family:var(--body-fonts);
+  word-spacing:3px;
+  font-size:.8em;
+}
+
+#why{
+  background-color:var(--Pink);
+}
+
+#why > h2{
+  color:var(--White);
+  font-family:var(--title-fonts);
+  padding-top:10px;
+  text-align:left;
+  padding-left:10px;
+  font-size:2em;
+}
