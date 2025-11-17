@@ -209,21 +209,22 @@ table {
 /*GLOBAL STYLES/*
 /*Mobile*/
 body{
-	background: var(--Lavender);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 header, body, footer{
-	background-color: var(--Purple);
+	background-color: var(--Lavender);
 	width:100%;
 	max-width: 450px;
   	text-align:center;
+    justify-self:center;
 }
 
 header{
   padding-top:30px;
   padding-bottom:30px;
+  background-color:var(--Purple);
 }
 
 header > h1{
@@ -258,6 +259,10 @@ li > a{
   font-family:var(--body-fonts);
   font-weight:bold;
   font-size:.8em;
+}
+#services{
+  background-color: var(--Purple);
+  padding-bottom:10px;
 }
 #services > h2{
   color:var(--White);
@@ -349,6 +354,7 @@ li > a{
 
 #pricing{
   padding-bottom:10px;
+  background-color: var(--Purple);
 }
 
 #pricing > h2{
@@ -421,6 +427,7 @@ td{
   box-shadow:5px 5px 5px var(--Dark-Gray);
 }
 footer{
+  background-color: var(--Purple);
   padding-top:30px;
   padding-bottom:30px;
   display:grid;
