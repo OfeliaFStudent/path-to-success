@@ -221,8 +221,41 @@ header, body, footer{
   	text-align:center;
 }
 
+header{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
 header > h1{
   color: var(--White);
   font-size:3em;
   font-family: var(--title-fonts);
+}
+header > p{
+  color:var(--White);
+  font-family: var(--body-fonts);
+  font-style:italic;
+  font-size:.75em;
+  margin:10px;
+}
+nav{
+  background-color:var(--Yellow);
+  padding:10px;
+}
+nav > h2{
+  font-family:var(--body-fonts);
+  font-style:italic;
+  font-weight: bold;
+  font-size:1.5em;
+}
+nav > ul > li{
+  background-color:var(--White);
+  padding: 10px;
+  margin:10px;
+}
+li > a{
+  text-decoration:none;
+  font-family:var(--body-fonts);
+  font-weight:bold;
+  font-size:.8em;
 }
